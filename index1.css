@@ -1,0 +1,258 @@
+body {
+    margin: 0px;
+    font-family: 'Press Start 2P', cursive;
+    background-color: rgb(12, 4, 61);
+    overflow-y: hidden;
+}
+
+/* @supports (-moz-appearance:none) {
+    .btns {}
+} */
+
+@media screen and (max-width:576px) {
+    .btns {
+        width: 110px;
+        height: 110px;
+        border-radius: 20%;
+        padding: 50px;
+    }
+
+    .pressed {
+        /* box-shadow: 5px 5px 10px black;
+        opacity: 50%; */
+        height: 78px;
+    }
+
+    .row {
+        width: 130px;
+        height: 130px;
+        border: 5px solid rgb(255, 255, 255);
+        border-radius: 20%;
+        background-color: rgba(170, 170, 170, 0.568);
+        display: inline-block;
+    }
+
+
+}
+
+@media screen and (min-width:577px) {
+    .btns {
+        width: 180px;
+        height: 180px;
+        border-radius: 20%;
+        padding: 50px;
+    }
+
+    .pressed {
+        height: 175px;
+    }
+
+    .row {
+        width: 200px;
+        height: 200px;
+        border: 4px solid rgb(255, 255, 255);
+        border-radius: 20%;
+        background-color: rgba(170, 170, 170, 0.568);
+        display: inline-block;
+        margin: 0 0px 20px 0;
+    }
+}
+
+.margined {
+    margin: 100px;
+}
+
+.navbar {
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100vw;
+    top: 0px;
+    padding: 15px;
+}
+
+.brandLogo {
+    width: 80px;
+}
+
+.navBrand>a {
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    font-size: 1.3rem;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    text-decoration: none;
+}
+
+.navItems {
+    list-style: none;
+    display: flex;
+}
+
+#link1,
+#link2,
+#link3 {
+    margin-inline-end: 50px;
+    text-decoration: none;
+}
+
+.navLinks {
+    margin-top: 20px;
+}
+
+.backImg {
+    position: fixed;
+    top: 80px;
+    object-fit: cover;
+    opacity: 50%;
+    z-index: -1;
+}
+
+#img1 {
+    width: 100vw;
+    height: 70vw;
+}
+
+#mainHead {
+    margin: 150px auto 50px auto;
+    color: antiquewhite;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.btn-grid {
+    text-align: center;
+}
+
+.dumy {
+    border: 5px solid rgb(255, 0, 0);
+
+}
+
+#green {
+    background-color: green;
+}
+
+#red {
+    background-color: red;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#score {
+    /* margin-top: 50px; */
+    color: antiquewhite;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+
+.scoreContainer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 500px;
+}
+
+#scoreBoard {
+    text-align: center;
+    font-size: 1.5rem;
+    position: fixed;
+    width: 600px;
+
+    top: 280px;
+    display: none;
+    border: solid 8px #2f4858;
+}
+
+.scoreBoardItem-container {
+    /* border: solid 50px #faebd7; */
+    background-color: antiquewhite;
+    height: 500px;
+}
+
+.scoreBoardItems {
+    margin: 40px;
+    background-color: rgb(217, 225, 233);
+    /* padding: 30px; */
+    border: solid 4px black;
+    height: 150px;
+}
+
+#boardHead {
+    margin-bottom: 10px;
+}
+
+#tryagain-btn {
+    background-color: darkgreen;
+    border: solid 2px black;
+    /* padding: 15px; */
+    font-size: 1.1rem;
+    font-family: inherit;
+    border-radius: 25px;
+    box-shadow: -2px 5px 0px black;
+    margin: 20px;
+    width: 210px;
+    height: 98px;
+}
+
+.tryBtn {
+    margin: 50px 0px 0px 0px;
+}
+
+#tryBtn-icon {
+    font-size: 2.5rem;
+}
+
+.scoreBoard-nav {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.scoreBoard-navItem {
+    font-size: 15px;
+    border: solid 2px black;
+}
+
+#totalScore {
+    margin-top: 40px;
+}
+
+#sBitem-1:hover,
+#sBitem-2:hover {
+    background-color: #b6b6b6;
+
+}
+
+#sBlink-1:visited {
+    background-color: #b6b6b6;
+}
+
+#sBitem-2:active {
+    background-color: #b6b6b6;
+}
+
+#sBlink-1,
+#sBlink-2 {
+    text-decoration: none;
+    color: black;
+}
+
+#closebtn {
+    text-align: right;
+}
+
+#sBclose-btn:hover {
+    background-color: #b6b6b6;
+    border: solid 2px black
+}
