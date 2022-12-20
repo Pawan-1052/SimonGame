@@ -1,0 +1,23 @@
+{
+  "name": "mysimon_game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/Pawan-1052/SimonGame.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pawan-1052/SimonGame/issues"
+  },
+  "homepage": "https://github.com/Pawan-1052/SimonGame#readme",
+  "dependencies": {
+    "firebase": "^9.9.3"
+  }
+}
